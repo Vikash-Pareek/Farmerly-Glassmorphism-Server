@@ -1,4 +1,4 @@
-# Farmerly
+# Farmerly -> Backend
 
 
 #### Website works best in Google Chrome browser
@@ -27,23 +27,17 @@
 ## Installation Process
 1. #### Clone the repo using this command
     ```bash
-    git clone https://github.com/Vikash-Pareek/Farmerly-Glassmorphism-Fullstack-MERN.git
+    git clone https://github.com/Vikash-Pareek/Farmerly-Glassmorphism-Server.git
     ```
-2. #### Install NPM Packages
-    1. Install Back-end Packages :
+2. #### Install NPM Packages :
     ```bash
-    cd Farmerly-Glassmorphism-Fullstack-MERN
+    cd Farmerly-Glassmorphism-Server
     npm install
     ```
-    2. Install Front-end Packages :
-    ```bash
-    cd client
-    npm install
-    ```
-3. Go to the config folder at Farmerly/config & create default.json of mongoDB connection, JWT_SECRET, BRAINTREE_MERCHANT_ID, BRAINTREE_PUBLIC_KEY and BRAINTREE_PRIVATE_KEY.
+3. Go to the config folder at Farmerly-Glassmorphism-Server/config & create default.json of mongoDB connection, JWT_SECRET, BRAINTREE_MERCHANT_ID, BRAINTREE_PUBLIC_KEY and BRAINTREE_PRIVATE_KEY.
 
     ```bash
-    cd Farmerly-Glassmorphism-Fullstack-MERN
+    cd Farmerly-Glassmorphism-Server
     cd config
     cat >> default.json
     ```
@@ -66,7 +60,7 @@
 
 4. <b>Deploy this project</b> on your local server by using this command :
     ```bash
-    cd Farmerly-Glassmorphism-Fullstack-MERN
+    cd Farmerly-Glassmorphism-Server
     npm run dev
     ```
     #### note: both backend & frontend server will start at once with the above command.
