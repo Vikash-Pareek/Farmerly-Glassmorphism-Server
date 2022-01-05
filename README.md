@@ -1,4 +1,4 @@
-# Farmerly -> Backend
+# Farmerly - Backend
 
 
 #### Website works best in Google Chrome browser
